@@ -1,0 +1,8 @@
+inherits = "base16_default_dark"
+"ui.background" = { bg = "none" } # Muda apenas o fundo
+# "ui.virtual.whitespace" = { bg = "none" }
+# "ui.menu" = { bg = "none" }           # Menus de autocomplete
+# "ui.popup" = { bg = "none" }          # Documentação flutuante
+# "ui.linenr" = { bg = "none" }         # Números das linhas
+# "ui.statusline" = { bg = "none" }     # Barra de status (opcional, se quiser ela transparente também)
+# "ui.cursorline.primary" = { bg = "#2e2e2e" }

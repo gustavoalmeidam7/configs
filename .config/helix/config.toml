@@ -1,0 +1,11 @@
+theme = "dark-transp"
+
+[keys.normal]
+"C-y" = [
+    ":sh rm -f /tmp/yazi-file",
+    ":insert-output yazi --chooser-file=/tmp/yazi-file",
+    ":open %sh{cat /tmp/yazi-file}",
+    ":redraw"
+]
+
+
