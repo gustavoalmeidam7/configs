@@ -1,3 +1,4 @@
+# For cachyos only
 source /usr/share/cachyos-fish-config/cachyos-config.fish
 
 # overwrite greeting
@@ -5,6 +6,3 @@ source /usr/share/cachyos-fish-config/cachyos-config.fish
 #function fish_greeting
 #    # smth smth
 #end
-
-# opencode
-fish_add_path /home/gustavo/.opencode/bin
