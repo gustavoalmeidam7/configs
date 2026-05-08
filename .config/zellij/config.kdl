@@ -47,6 +47,10 @@ keybinds clear-defaults=true {
         bind "p" { GoToPreviousTab; SwitchToMode "normal"; }
         bind "z" { ToggleFocusFullscreen; SwitchToMode "normal"; }
     }
+    scroll {
+        bind "esc" { SwitchToMode "normal"; }
+        bind "Enter" { SwitchToMode "normal"; }
+    }
 }
 
 // Plugin aliases - can be used to change the implementation of Zellij
